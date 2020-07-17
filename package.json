@@ -1,0 +1,19 @@
+{
+"status": "ok", "message": "Hello, world! This is the GitHub Package Registry."
+}
+$ npm login --registry=https://npm.pkg.github.com
+> Username: SALİH YILDIRIM
+> Password: TOKEN
+> Email: sy2712571@gmail.com
+npm publish [<tarball>|<folder>] [--tag <tag>] [--access <public|restricted>] [--otp otpcode] [--dry-run]
+
+Publishes '.' if no argument supplied
+Sets tag 'latest' if no --tag specified
+{
+  // ...
+  "graphql-denetçisi" : { 
+    "şube" : "ana" , 
+    "schema" : "schema.graphql" 
+  }
+}
+closed

@@ -1,0 +1,432 @@
+2020-07-12T10:58:33.1127722Z ##[section]Starting: Job
+2020-07-12T10:58:33.2913427Z ##[section]Starting: Initialize job
+2020-07-12T10:58:33.2914570Z Agent name: 'Hosted Agent'
+2020-07-12T10:58:33.2914905Z Agent machine name: 'fv-az692'
+2020-07-12T10:58:33.2915128Z Current agent version: '2.171.1'
+2020-07-12T10:58:33.2959478Z ##[group]Operating System
+2020-07-12T10:58:33.2959706Z Ubuntu
+2020-07-12T10:58:33.2959837Z 18.04.4
+2020-07-12T10:58:33.2959980Z LTS
+2020-07-12T10:58:33.2960116Z ##[endgroup]
+2020-07-12T10:58:33.2960291Z ##[group]Virtual Environment
+2020-07-12T10:58:33.2960473Z Environment: ubuntu-18.04
+2020-07-12T10:58:33.2960642Z Version: 20200625.0
+2020-07-12T10:58:33.2960933Z Included Software: https://github.com/actions/virtual-environments/blob/ubuntu18/20200625.0/images/linux/Ubuntu1804-README.md
+2020-07-12T10:58:33.2961192Z ##[endgroup]
+2020-07-12T10:58:33.2962095Z Current image version: '20200625.0'
+2020-07-12T10:58:33.2966513Z Agent running as: 'vsts'
+2020-07-12T10:58:33.3006828Z Prepare build directory.
+2020-07-12T10:58:33.3314254Z Set build variables.
+2020-07-12T10:58:33.3345187Z Download all required tasks.
+2020-07-12T10:58:33.3453395Z Downloading task: CmdLine (2.164.2)
+2020-07-12T10:58:35.3207819Z Checking job knob settings.
+2020-07-12T10:58:35.3215958Z    Knob: AgentToolsDirectory = /opt/hostedtoolcache Source: ${AGENT_TOOLSDIRECTORY} 
+2020-07-12T10:58:35.3217215Z    Knob: AgentPerflog = /home/vsts/perflog Source: ${VSTS_AGENT_PERFLOG} 
+2020-07-12T10:58:35.3217956Z Finished checking job knob settings.
+2020-07-12T10:58:35.3558170Z Start tracking orphan processes.
+2020-07-12T10:58:35.3769612Z ##[section]Finishing: Initialize job
+2020-07-12T10:58:35.4128488Z ##[section]Starting: Checkout salihyildirim2/PASTEL@master to s
+2020-07-12T10:58:35.4322131Z ==============================================================================
+2020-07-12T10:58:35.4322720Z Task         : Get sources
+2020-07-12T10:58:35.4323216Z Description  : Get sources from a repository. Supports Git, TfsVC, and SVN repositories.
+2020-07-12T10:58:35.4323454Z Version      : 1.0.0
+2020-07-12T10:58:35.4323894Z Author       : Microsoft
+2020-07-12T10:58:35.4324477Z Help         : [More Information](https://go.microsoft.com/fwlink/?LinkId=798199)
+2020-07-12T10:58:35.4325033Z ==============================================================================
+2020-07-12T10:58:36.3267356Z Syncing repository: salihyildirim2/PASTEL (GitHub)
+2020-07-12T10:58:36.3270437Z ##[command]git version
+2020-07-12T10:58:36.3273757Z git version 2.27.0
+2020-07-12T10:58:36.3274603Z ##[command]git lfs version
+2020-07-12T10:58:36.3277888Z git-lfs/2.11.0 (GitHub; linux amd64; go 1.13.4)
+2020-07-12T10:58:36.3278975Z ##[command]git init "/home/vsts/work/1/s"
+2020-07-12T10:58:36.3281558Z Initialized empty Git repository in /home/vsts/work/1/s/.git/
+2020-07-12T10:58:36.3282254Z ##[command]git remote add origin https://github.com/salihyildirim2/PASTEL
+2020-07-12T10:58:36.3288720Z ##[command]git config gc.auto 0
+2020-07-12T10:58:36.3291857Z ##[command]git config --get-all http.https://github.com/salihyildirim2/PASTEL.extraheader
+2020-07-12T10:58:36.3294946Z ##[command]git config --get-all http.proxy
+2020-07-12T10:58:36.3300472Z ##[command]git -c http.extraheader="AUTHORIZATION: basic ***" fetch --force --tags --prune --progress --no-recurse-submodules origin
+2020-07-12T10:58:36.9975343Z remote: Enumerating objects: 122, done.        
+2020-07-12T10:58:36.9976641Z remote: Counting objects:   0% (1/122)        
+2020-07-12T10:58:36.9979363Z remote: Counting objects:   1% (2/122)        
+2020-07-12T10:58:36.9980409Z remote: Counting objects:   2% (3/122)        
+2020-07-12T10:58:36.9981654Z remote: Counting objects:   3% (4/122)        
+2020-07-12T10:58:36.9982594Z remote: Counting objects:   4% (5/122)        
+2020-07-12T10:58:36.9984158Z remote: Counting objects:   5% (7/122)        
+2020-07-12T10:58:36.9984613Z remote: Counting objects:   6% (8/122)        
+2020-07-12T10:58:36.9985108Z remote: Counting objects:   7% (9/122)        
+2020-07-12T10:58:36.9986243Z remote: Counting objects:   8% (10/122)        
+2020-07-12T10:58:36.9987206Z remote: Counting objects:   9% (11/122)        
+2020-07-12T10:58:36.9988004Z remote: Counting objects:  10% (13/122)        
+2020-07-12T10:58:36.9988764Z remote: Counting objects:  11% (14/122)        
+2020-07-12T10:58:36.9989806Z remote: Counting objects:  12% (15/122)        
+2020-07-12T10:58:36.9990351Z remote: Counting objects:  13% (16/122)        
+2020-07-12T10:58:36.9991279Z remote: Counting objects:  14% (18/122)        
+2020-07-12T10:58:36.9992438Z remote: Counting objects:  15% (19/122)        
+2020-07-12T10:58:36.9993572Z remote: Counting objects:  16% (20/122)        
+2020-07-12T10:58:36.9994103Z remote: Counting objects:  17% (21/122)        
+2020-07-12T10:58:36.9994538Z remote: Counting objects:  18% (22/122)        
+2020-07-12T10:58:36.9994976Z remote: Counting objects:  19% (24/122)        
+2020-07-12T10:58:36.9995345Z remote: Counting objects:  20% (25/122)        
+2020-07-12T10:58:36.9995767Z remote: Counting objects:  21% (26/122)        
+2020-07-12T10:58:37.0738588Z remote: Counting objects:  22% (27/122)        
+2020-07-12T10:58:37.2003493Z remote: Counting objects:  23% (29/122)        
+2020-07-12T10:58:37.2004020Z remote: Counting objects:  24% (30/122)        
+2020-07-12T10:58:37.2004667Z remote: Counting objects:  25% (31/122)        
+2020-07-12T10:58:37.2005057Z remote: Counting objects:  26% (32/122)        
+2020-07-12T10:58:37.2026249Z remote: Counting objects:  27% (33/122)        
+2020-07-12T10:58:37.2027093Z remote: Counting objects:  28% (35/122)        
+2020-07-12T10:58:37.2028464Z remote: Counting objects:  29% (36/122)        
+2020-07-12T10:58:37.2029139Z remote: Counting objects:  30% (37/122)        
+2020-07-12T10:58:37.2030729Z remote: Counting objects:  31% (38/122)        
+2020-07-12T10:58:37.2031179Z remote: Counting objects:  32% (40/122)        
+2020-07-12T10:58:37.2032081Z remote: Counting objects:  33% (41/122)        
+2020-07-12T10:58:37.2032663Z remote: Counting objects:  34% (42/122)        
+2020-07-12T10:58:37.2033591Z remote: Counting objects:  35% (43/122)        
+2020-07-12T10:58:37.2034357Z remote: Counting objects:  36% (44/122)        
+2020-07-12T10:58:37.2035264Z remote: Counting objects:  37% (46/122)        
+2020-07-12T10:58:37.2036428Z remote: Counting objects:  38% (47/122)        
+2020-07-12T10:58:37.2036939Z remote: Counting objects:  39% (48/122)        
+2020-07-12T10:58:37.2038090Z remote: Counting objects:  40% (49/122)        
+2020-07-12T10:58:37.2038794Z remote: Counting objects:  41% (51/122)        
+2020-07-12T10:58:37.2039522Z remote: Counting objects:  42% (52/122)        
+2020-07-12T10:58:37.2039944Z remote: Counting objects:  43% (53/122)        
+2020-07-12T10:58:37.2040656Z remote: Counting objects:  44% (54/122)        
+2020-07-12T10:58:37.2041061Z remote: Counting objects:  45% (55/122)        
+2020-07-12T10:58:37.2041755Z remote: Counting objects:  46% (57/122)        
+2020-07-12T10:58:37.2042159Z remote: Counting objects:  47% (58/122)        
+2020-07-12T10:58:37.2042509Z remote: Counting objects:  48% (59/122)        
+2020-07-12T10:58:37.2043185Z remote: Counting objects:  49% (60/122)        
+2020-07-12T10:58:37.2043490Z remote: Counting objects:  50% (61/122)        
+2020-07-12T10:58:37.2043884Z remote: Counting objects:  51% (63/122)        
+2020-07-12T10:58:37.2044993Z remote: Counting objects:  52% (64/122)        
+2020-07-12T10:58:37.2045415Z remote: Counting objects:  53% (65/122)        
+2020-07-12T10:58:37.2046207Z remote: Counting objects:  54% (66/122)        
+2020-07-12T10:58:37.2046620Z remote: Counting objects:  55% (68/122)        
+2020-07-12T10:58:37.2047337Z remote: Counting objects:  56% (69/122)        
+2020-07-12T10:58:37.2047742Z remote: Counting objects:  57% (70/122)        
+2020-07-12T10:58:37.2048455Z remote: Counting objects:  58% (71/122)        
+2020-07-12T10:58:37.2048927Z remote: Counting objects:  59% (72/122)        
+2020-07-12T10:58:37.2049573Z remote: Counting objects:  60% (74/122)        
+2020-07-12T10:58:37.2050157Z remote: Counting objects:  61% (75/122)        
+2020-07-12T10:58:37.2051372Z remote: Counting objects:  62% (76/122)        
+2020-07-12T10:58:37.2051868Z remote: Counting objects:  63% (77/122)        
+2020-07-12T10:58:37.2052668Z remote: Counting objects:  64% (79/122)        
+2020-07-12T10:58:37.2053692Z remote: Counting objects:  65% (80/122)        
+2020-07-12T10:58:37.2054258Z remote: Counting objects:  66% (81/122)        
+2020-07-12T10:58:37.2055125Z remote: Counting objects:  67% (82/122)        
+2020-07-12T10:58:37.2055649Z remote: Counting objects:  68% (83/122)        
+2020-07-12T10:58:37.2056043Z remote: Counting objects:  69% (85/122)        
+2020-07-12T10:58:37.2056832Z remote: Counting objects:  70% (86/122)        
+2020-07-12T10:58:37.2057252Z remote: Counting objects:  71% (87/122)        
+2020-07-12T10:58:37.2057980Z remote: Counting objects:  72% (88/122)        
+2020-07-12T10:58:37.2058393Z remote: Counting objects:  73% (90/122)        
+2020-07-12T10:58:37.2062107Z remote: Counting objects:  74% (91/122)        
+2020-07-12T10:58:37.2063109Z remote: Counting objects:  75% (92/122)        
+2020-07-12T10:58:37.2063595Z remote: Counting objects:  76% (93/122)        
+2020-07-12T10:58:37.2063954Z remote: Counting objects:  77% (94/122)        
+2020-07-12T10:58:37.2064549Z remote: Counting objects:  78% (96/122)        
+2020-07-12T10:58:37.2065238Z remote: Counting objects:  79% (97/122)        
+2020-07-12T10:58:37.2065623Z remote: Counting objects:  80% (98/122)        
+2020-07-12T10:58:37.2066053Z remote: Counting objects:  81% (99/122)        
+2020-07-12T10:58:37.2066436Z remote: Counting objects:  82% (101/122)        
+2020-07-12T10:58:37.2066937Z remote: Counting objects:  83% (102/122)        
+2020-07-12T10:58:37.2067374Z remote: Counting objects:  84% (103/122)        
+2020-07-12T10:58:37.2068002Z remote: Counting objects:  85% (104/122)        
+2020-07-12T10:58:37.2068895Z remote: Counting objects:  86% (105/122)        
+2020-07-12T10:58:37.2069352Z remote: Counting objects:  87% (107/122)        
+2020-07-12T10:58:37.2069723Z remote: Counting objects:  88% (108/122)        
+2020-07-12T10:58:37.2070252Z remote: Counting objects:  89% (109/122)        
+2020-07-12T10:58:37.2070509Z remote: Counting objects:  90% (110/122)        
+2020-07-12T10:58:37.2070939Z remote: Counting objects:  91% (112/122)        
+2020-07-12T10:58:37.2072186Z remote: Counting objects:  92% (113/122)        
+2020-07-12T10:58:37.2072825Z remote: Counting objects:  93% (114/122)        
+2020-07-12T10:58:37.2073345Z remote: Counting objects:  94% (115/122)        
+2020-07-12T10:58:37.2073806Z remote: Counting objects:  95% (116/122)        
+2020-07-12T10:58:37.2074383Z remote: Counting objects:  96% (118/122)        
+2020-07-12T10:58:37.2074862Z remote: Counting objects:  97% (119/122)        
+2020-07-12T10:58:37.2075533Z remote: Counting objects:  98% (120/122)        
+2020-07-12T10:58:37.2076071Z remote: Counting objects:  99% (121/122)        
+2020-07-12T10:58:37.2076487Z remote: Counting objects: 100% (122/122)        
+2020-07-12T10:58:37.2076855Z remote: Counting objects: 100% (122/122), done.        
+2020-07-12T10:58:37.2077537Z remote: Compressing objects:   0% (1/112)        
+2020-07-12T10:58:37.2077919Z remote: Compressing objects:   1% (2/112)        
+2020-07-12T10:58:37.2078561Z remote: Compressing objects:   2% (3/112)        
+2020-07-12T10:58:37.2078982Z remote: Compressing objects:   3% (4/112)        
+2020-07-12T10:58:37.2079366Z remote: Compressing objects:   4% (5/112)        
+2020-07-12T10:58:37.2079804Z remote: Compressing objects:   5% (6/112)        
+2020-07-12T10:58:37.2080193Z remote: Compressing objects:   6% (7/112)        
+2020-07-12T10:58:37.2093461Z remote: Compressing objects:   7% (8/112)        
+2020-07-12T10:58:37.2093751Z remote: Compressing objects:   8% (9/112)        
+2020-07-12T10:58:37.2094156Z remote: Compressing objects:   9% (11/112)        
+2020-07-12T10:58:37.2150662Z remote: Compressing objects:  10% (12/112)        
+2020-07-12T10:58:37.2151357Z remote: Compressing objects:  11% (13/112)        
+2020-07-12T10:58:37.2152174Z remote: Compressing objects:  12% (14/112)        
+2020-07-12T10:58:37.2152835Z remote: Compressing objects:  13% (15/112)        
+2020-07-12T10:58:37.2153161Z remote: Compressing objects:  14% (16/112)        
+2020-07-12T10:58:37.2153431Z remote: Compressing objects:  15% (17/112)        
+2020-07-12T10:58:37.2153744Z remote: Compressing objects:  16% (18/112)        
+2020-07-12T10:58:37.2154013Z remote: Compressing objects:  17% (20/112)        
+2020-07-12T10:58:37.2154516Z remote: Compressing objects:  18% (21/112)        
+2020-07-12T10:58:37.2154777Z remote: Compressing objects:  19% (22/112)        
+2020-07-12T10:58:37.2155269Z remote: Compressing objects:  20% (23/112)        
+2020-07-12T10:58:37.2155522Z remote: Compressing objects:  21% (24/112)        
+2020-07-12T10:58:37.2155821Z remote: Compressing objects:  22% (25/112)        
+2020-07-12T10:58:37.2156072Z remote: Compressing objects:  23% (26/112)        
+2020-07-12T10:58:37.2156366Z remote: Compressing objects:  24% (27/112)        
+2020-07-12T10:58:37.2156617Z remote: Compressing objects:  25% (28/112)        
+2020-07-12T10:58:37.2156920Z remote: Compressing objects:  26% (30/112)        
+2020-07-12T10:58:37.2157174Z remote: Compressing objects:  27% (31/112)        
+2020-07-12T10:58:37.2157422Z remote: Compressing objects:  28% (32/112)        
+2020-07-12T10:58:37.2157969Z remote: Compressing objects:  29% (33/112)        
+2020-07-12T10:58:37.2158223Z remote: Compressing objects:  30% (34/112)        
+2020-07-12T10:58:37.2158532Z remote: Compressing objects:  31% (35/112)        
+2020-07-12T10:58:37.2158787Z remote: Compressing objects:  32% (36/112)        
+2020-07-12T10:58:37.2159191Z remote: Compressing objects:  33% (37/112)        
+2020-07-12T10:58:37.2159461Z remote: Compressing objects:  34% (39/112)        
+2020-07-12T10:58:37.2159773Z remote: Compressing objects:  35% (40/112)        
+2020-07-12T10:58:37.2160031Z remote: Compressing objects:  36% (41/112)        
+2020-07-12T10:58:37.2160338Z remote: Compressing objects:  37% (42/112)        
+2020-07-12T10:58:37.2160601Z remote: Compressing objects:  38% (43/112)        
+2020-07-12T10:58:37.2161296Z remote: Compressing objects:  39% (44/112)        
+2020-07-12T10:58:37.2161569Z remote: Compressing objects:  40% (45/112)        
+2020-07-12T10:58:37.2161890Z remote: Compressing objects:  41% (46/112)        
+2020-07-12T10:58:37.2162161Z remote: Compressing objects:  42% (48/112)        
+2020-07-12T10:58:37.2162477Z remote: Compressing objects:  43% (49/112)        
+2020-07-12T10:58:37.2162748Z remote: Compressing objects:  44% (50/112)        
+2020-07-12T10:58:37.2163274Z remote: Compressing objects:  45% (51/112)        
+2020-07-12T10:58:37.2163563Z remote: Compressing objects:  46% (52/112)        
+2020-07-12T10:58:37.2163906Z remote: Compressing objects:  47% (53/112)        
+2020-07-12T10:58:37.2164188Z remote: Compressing objects:  48% (54/112)        
+2020-07-12T10:58:37.2164725Z remote: Compressing objects:  49% (55/112)        
+2020-07-12T10:58:37.2165001Z remote: Compressing objects:  50% (56/112)        
+2020-07-12T10:58:37.2165322Z remote: Compressing objects:  51% (58/112)        
+2020-07-12T10:58:37.2165595Z remote: Compressing objects:  52% (59/112)        
+2020-07-12T10:58:37.2165916Z remote: Compressing objects:  53% (60/112)        
+2020-07-12T10:58:37.2166348Z remote: Compressing objects:  54% (61/112)        
+2020-07-12T10:58:37.2166658Z remote: Compressing objects:  55% (62/112)        
+2020-07-12T10:58:37.2166922Z remote: Compressing objects:  56% (63/112)        
+2020-07-12T10:58:37.2167601Z remote: Compressing objects:  57% (64/112)        
+2020-07-12T10:58:37.2167890Z remote: Compressing objects:  58% (65/112)        
+2020-07-12T10:58:37.2168883Z remote: Compressing objects:  59% (67/112)        
+2020-07-12T10:58:37.2169184Z remote: Compressing objects:  60% (68/112)        
+2020-07-12T10:58:37.2169456Z remote: Compressing objects:  61% (69/112)        
+2020-07-12T10:58:37.2169819Z remote: Compressing objects:  62% (70/112)        
+2020-07-12T10:58:37.2170246Z remote: Compressing objects:  63% (71/112)        
+2020-07-12T10:58:37.2170879Z remote: Compressing objects:  64% (72/112)        
+2020-07-12T10:58:37.2171307Z remote: Compressing objects:  65% (73/112)        
+2020-07-12T10:58:37.2171599Z remote: Compressing objects:  66% (74/112)        
+2020-07-12T10:58:37.2171846Z remote: Compressing objects:  67% (76/112)        
+2020-07-12T10:58:37.2172136Z remote: Compressing objects:  68% (77/112)        
+2020-07-12T10:58:37.2172384Z remote: Compressing objects:  69% (78/112)        
+2020-07-12T10:58:37.2172678Z remote: Compressing objects:  70% (79/112)        
+2020-07-12T10:58:37.2172934Z remote: Compressing objects:  71% (80/112)        
+2020-07-12T10:58:37.2173231Z remote: Compressing objects:  72% (81/112)        
+2020-07-12T10:58:37.2173479Z remote: Compressing objects:  73% (82/112)        
+2020-07-12T10:58:37.2173767Z remote: Compressing objects:  74% (83/112)        
+2020-07-12T10:58:37.2174016Z remote: Compressing objects:  75% (84/112)        
+2020-07-12T10:58:37.2174312Z remote: Compressing objects:  76% (86/112)        
+2020-07-12T10:58:37.2174566Z remote: Compressing objects:  77% (87/112)        
+2020-07-12T10:58:37.2174903Z remote: Compressing objects:  78% (88/112)        
+2020-07-12T10:58:37.2175151Z remote: Compressing objects:  79% (89/112)        
+2020-07-12T10:58:37.2175446Z remote: Compressing objects:  80% (90/112)        
+2020-07-12T10:58:37.2175695Z remote: Compressing objects:  81% (91/112)        
+2020-07-12T10:58:37.2175977Z remote: Compressing objects:  82% (92/112)        
+2020-07-12T10:58:37.2176224Z remote: Compressing objects:  83% (93/112)        
+2020-07-12T10:58:37.2176592Z remote: Compressing objects:  84% (95/112)        
+2020-07-12T10:58:37.2176856Z remote: Compressing objects:  85% (96/112)        
+2020-07-12T10:58:37.2177146Z remote: Compressing objects:  86% (97/112)        
+2020-07-12T10:58:37.2177393Z remote: Compressing objects:  87% (98/112)        
+2020-07-12T10:58:37.2177679Z remote: Compressing objects:  88% (99/112)        
+2020-07-12T10:58:37.2177930Z remote: Compressing objects:  89% (100/112)        
+2020-07-12T10:58:37.2178643Z remote: Compressing objects:  90% (101/112)        
+2020-07-12T10:58:37.2178969Z remote: Compressing objects:  91% (102/112)        
+2020-07-12T10:58:37.2179679Z remote: Compressing objects:  92% (104/112)        
+2020-07-12T10:58:37.2180032Z remote: Compressing objects:  93% (105/112)        
+2020-07-12T10:58:37.2180312Z remote: Compressing objects:  94% (106/112)        
+2020-07-12T10:58:37.2180632Z remote: Compressing objects:  95% (107/112)        
+2020-07-12T10:58:37.2180909Z remote: Compressing objects:  96% (108/112)        
+2020-07-12T10:58:37.2181193Z remote: Compressing objects:  97% (109/112)        
+2020-07-12T10:58:37.2181509Z remote: Compressing objects:  98% (110/112)        
+2020-07-12T10:58:37.2181784Z remote: Compressing objects:  99% (111/112)        
+2020-07-12T10:58:37.2182261Z remote: Compressing objects: 100% (112/112)        
+2020-07-12T10:58:37.2182913Z remote: Compressing objects: 100% (112/112), done.        
+2020-07-12T10:58:37.2183206Z Receiving objects:   0% (1/129)
+2020-07-12T10:58:37.2183400Z Receiving objects:   1% (2/129)
+2020-07-12T10:58:37.2183635Z Receiving objects:   2% (3/129)
+2020-07-12T10:58:37.2183829Z Receiving objects:   3% (4/129)
+2020-07-12T10:58:37.2184075Z Receiving objects:   4% (6/129)
+2020-07-12T10:58:37.2184268Z Receiving objects:   5% (7/129)
+2020-07-12T10:58:37.2184498Z Receiving objects:   6% (8/129)
+2020-07-12T10:58:37.2184694Z Receiving objects:   7% (10/129)
+2020-07-12T10:58:37.2184948Z Receiving objects:   8% (11/129)
+2020-07-12T10:58:37.2185149Z Receiving objects:   9% (12/129)
+2020-07-12T10:58:37.2185392Z Receiving objects:  10% (13/129)
+2020-07-12T10:58:37.2185590Z Receiving objects:  11% (15/129)
+2020-07-12T10:58:37.2185833Z Receiving objects:  12% (16/129)
+2020-07-12T10:58:37.2186030Z Receiving objects:  13% (17/129)
+2020-07-12T10:58:37.2186223Z Receiving objects:  14% (19/129)
+2020-07-12T10:58:37.2186470Z Receiving objects:  15% (20/129)
+2020-07-12T10:58:37.2186663Z Receiving objects:  16% (21/129)
+2020-07-12T10:58:37.2187007Z Receiving objects:  17% (22/129)
+2020-07-12T10:58:37.2187202Z Receiving objects:  18% (24/129)
+2020-07-12T10:58:37.2187447Z Receiving objects:  19% (25/129)
+2020-07-12T10:58:37.2187643Z Receiving objects:  20% (26/129)
+2020-07-12T10:58:37.2187880Z Receiving objects:  21% (28/129)
+2020-07-12T10:58:37.2188075Z Receiving objects:  22% (29/129)
+2020-07-12T10:58:37.2188480Z Receiving objects:  23% (30/129)
+2020-07-12T10:58:37.2188686Z Receiving objects:  24% (31/129)
+2020-07-12T10:58:37.2188953Z Receiving objects:  25% (33/129)
+2020-07-12T10:58:37.2189163Z Receiving objects:  26% (34/129)
+2020-07-12T10:58:37.2189400Z Receiving objects:  27% (35/129)
+2020-07-12T10:58:37.2189598Z Receiving objects:  28% (37/129)
+2020-07-12T10:58:37.2189832Z Receiving objects:  29% (38/129)
+2020-07-12T10:58:37.2190028Z Receiving objects:  30% (39/129)
+2020-07-12T10:58:37.2190221Z Receiving objects:  31% (40/129)
+2020-07-12T10:58:37.2190458Z Receiving objects:  32% (42/129)
+2020-07-12T10:58:37.2190660Z Receiving objects:  33% (43/129)
+2020-07-12T10:58:37.2190895Z Receiving objects:  34% (44/129)
+2020-07-12T10:58:37.2191089Z Receiving objects:  35% (46/129)
+2020-07-12T10:58:37.2191339Z Receiving objects:  36% (47/129)
+2020-07-12T10:58:37.2191536Z Receiving objects:  37% (48/129)
+2020-07-12T10:58:37.2191777Z Receiving objects:  38% (50/129)
+2020-07-12T10:58:37.2191971Z Receiving objects:  39% (51/129)
+2020-07-12T10:58:37.2192202Z Receiving objects:  40% (52/129)
+2020-07-12T10:58:37.2192396Z Receiving objects:  41% (53/129)
+2020-07-12T10:58:37.2192651Z Receiving objects:  42% (55/129)
+2020-07-12T10:58:37.2192939Z Receiving objects:  43% (56/129)
+2020-07-12T10:58:37.2193859Z remote: Total 129 (delta 35), reused 0 (delta 0), pack-reused 7        
+2020-07-12T10:58:37.2194120Z Receiving objects:  44% (57/129)
+2020-07-12T10:58:37.2194361Z Receiving objects:  45% (59/129)
+2020-07-12T10:58:37.2194556Z Receiving objects:  46% (60/129)
+2020-07-12T10:58:37.2194749Z Receiving objects:  47% (61/129)
+2020-07-12T10:58:37.2195004Z Receiving objects:  48% (62/129)
+2020-07-12T10:58:37.2195197Z Receiving objects:  49% (64/129)
+2020-07-12T10:58:37.2195451Z Receiving objects:  50% (65/129)
+2020-07-12T10:58:37.2195646Z Receiving objects:  51% (66/129)
+2020-07-12T10:58:37.2195896Z Receiving objects:  52% (68/129)
+2020-07-12T10:58:37.2196092Z Receiving objects:  53% (69/129)
+2020-07-12T10:58:37.2196330Z Receiving objects:  54% (70/129)
+2020-07-12T10:58:37.2196524Z Receiving objects:  55% (71/129)
+2020-07-12T10:58:37.2196765Z Receiving objects:  56% (73/129)
+2020-07-12T10:58:37.2196959Z Receiving objects:  57% (74/129)
+2020-07-12T10:58:37.2197247Z Receiving objects:  58% (75/129)
+2020-07-12T10:58:37.2197447Z Receiving objects:  59% (77/129)
+2020-07-12T10:58:37.2197687Z Receiving objects:  60% (78/129)
+2020-07-12T10:58:37.2197883Z Receiving objects:  61% (79/129)
+2020-07-12T10:58:37.2198120Z Receiving objects:  62% (80/129)
+2020-07-12T10:58:37.2198316Z Receiving objects:  63% (82/129)
+2020-07-12T10:58:37.2198509Z Receiving objects:  64% (83/129)
+2020-07-12T10:58:37.2198767Z Receiving objects:  65% (84/129)
+2020-07-12T10:58:37.2198959Z Receiving objects:  66% (86/129)
+2020-07-12T10:58:37.2199189Z Receiving objects:  67% (87/129)
+2020-07-12T10:58:37.2199383Z Receiving objects:  68% (88/129)
+2020-07-12T10:58:37.2199621Z Receiving objects:  69% (90/129)
+2020-07-12T10:58:37.2199816Z Receiving objects:  70% (91/129)
+2020-07-12T10:58:37.2200052Z Receiving objects:  71% (92/129)
+2020-07-12T10:58:37.2200246Z Receiving objects:  72% (93/129)
+2020-07-12T10:58:37.2200480Z Receiving objects:  73% (95/129)
+2020-07-12T10:58:37.2200682Z Receiving objects:  74% (96/129)
+2020-07-12T10:58:37.2200941Z Receiving objects:  75% (97/129)
+2020-07-12T10:58:37.2201141Z Receiving objects:  76% (99/129)
+2020-07-12T10:58:37.2201384Z Receiving objects:  77% (100/129)
+2020-07-12T10:58:37.2201584Z Receiving objects:  78% (101/129)
+2020-07-12T10:58:37.2201824Z Receiving objects:  79% (102/129)
+2020-07-12T10:58:37.2202026Z Receiving objects:  80% (104/129)
+2020-07-12T10:58:37.2202355Z Receiving objects:  81% (105/129)
+2020-07-12T10:58:37.2202605Z Receiving objects:  82% (106/129)
+2020-07-12T10:58:37.2202802Z Receiving objects:  83% (108/129)
+2020-07-12T10:58:37.2203035Z Receiving objects:  84% (109/129)
+2020-07-12T10:58:37.2203233Z Receiving objects:  85% (110/129)
+2020-07-12T10:58:37.2203470Z Receiving objects:  86% (111/129)
+2020-07-12T10:58:37.2203666Z Receiving objects:  87% (113/129)
+2020-07-12T10:58:37.2203910Z Receiving objects:  88% (114/129)
+2020-07-12T10:58:37.2204107Z Receiving objects:  89% (115/129)
+2020-07-12T10:58:37.2204355Z Receiving objects:  90% (117/129)
+2020-07-12T10:58:37.2204553Z Receiving objects:  91% (118/129)
+2020-07-12T10:58:37.2204822Z Receiving objects:  92% (119/129)
+2020-07-12T10:58:37.2205025Z Receiving objects:  93% (120/129)
+2020-07-12T10:58:37.2205266Z Receiving objects:  94% (122/129)
+2020-07-12T10:58:37.2205464Z Receiving objects:  95% (123/129)
+2020-07-12T10:58:37.2205707Z Receiving objects:  96% (124/129)
+2020-07-12T10:58:37.2205910Z Receiving objects:  97% (126/129)
+2020-07-12T10:58:37.2206142Z Receiving objects:  98% (127/129)
+2020-07-12T10:58:37.2206341Z Receiving objects:  99% (128/129)
+2020-07-12T10:58:37.2206537Z Receiving objects: 100% (129/129)
+2020-07-12T10:58:37.2206822Z Receiving objects: 100% (129/129), 48.83 KiB | 581.00 KiB/s, done.
+2020-07-12T10:58:37.2207059Z Resolving deltas:   0% (0/35)
+2020-07-12T10:58:37.2207287Z Resolving deltas:  17% (6/35)
+2020-07-12T10:58:37.2207476Z Resolving deltas:  22% (8/35)
+2020-07-12T10:58:37.2207706Z Resolving deltas: 100% (35/35)
+2020-07-12T10:58:37.2207977Z Resolving deltas: 100% (35/35), done.
+2020-07-12T10:58:37.2208252Z From https://github.com/salihyildirim2/PASTEL
+2020-07-12T10:58:37.2208800Z  * [new branch]      MÄ°T-LÄ°SANS -> origin/MÄ°T-LÄ°SANS
+2020-07-12T10:58:37.2209282Z  * [new branch]      gcloud     -> origin/gcloud
+2020-07-12T10:58:37.2209640Z  * [new branch]      make.yml   -> origin/make.yml
+2020-07-12T10:58:37.2210084Z  * [new branch]      make.yml-1 -> origin/make.yml-1
+2020-07-12T10:58:37.2210547Z  * [new branch]      master     -> origin/master
+2020-07-12T10:58:37.2889209Z ##[command]git checkout --progress --force cb0922bfef794cb7d4243fc9bf2df1668047b6a3
+2020-07-12T10:58:37.2891706Z Note: switching to 'cb0922bfef794cb7d4243fc9bf2df1668047b6a3'.
+2020-07-12T10:58:37.2891905Z 
+2020-07-12T10:58:37.2892358Z You are in 'detached HEAD' state. You can look around, make experimental
+2020-07-12T10:58:37.2892671Z changes and commit them, and you can discard any commits you make in this
+2020-07-12T10:58:37.2892987Z state without impacting any branches by switching back to a branch.
+2020-07-12T10:58:37.2893173Z 
+2020-07-12T10:58:37.2893368Z If you want to create a new branch to retain commits you create, you may
+2020-07-12T10:58:37.2893836Z do so (now or later) by using -c with the switch command. Example:
+2020-07-12T10:58:37.2894031Z 
+2020-07-12T10:58:37.2894291Z   git switch -c <new-branch-name>
+2020-07-12T10:58:37.2894436Z 
+2020-07-12T10:58:37.2894585Z Or undo this operation with:
+2020-07-12T10:58:37.2894730Z 
+2020-07-12T10:58:37.2895160Z   git switch -
+2020-07-12T10:58:37.2895266Z 
+2020-07-12T10:58:37.2895488Z Turn off this advice by setting config variable advice.detachedHead to false
+2020-07-12T10:58:37.2895674Z 
+2020-07-12T10:58:37.2896027Z HEAD is now at cb0922b Set up CI with Azure Pipelines
+2020-07-12T10:58:37.2945002Z ##[section]Finishing: Checkout salihyildirim2/PASTEL@master to s
+2020-07-12T10:58:37.2970475Z ##[section]Starting: Run a one-line script
+2020-07-12T10:58:37.2978151Z ==============================================================================
+2020-07-12T10:58:37.2978832Z Task         : Command line
+2020-07-12T10:58:37.2979143Z Description  : Run a command line script using Bash on Linux and macOS and cmd.exe on Windows
+2020-07-12T10:58:37.2979424Z Version      : 2.164.2
+2020-07-12T10:58:37.2979650Z Author       : Microsoft Corporation
+2020-07-12T10:58:37.2979952Z Help         : https://docs.microsoft.com/azure/devops/pipelines/tasks/utility/command-line
+2020-07-12T10:58:37.2980660Z ==============================================================================
+2020-07-12T10:58:37.7021095Z Generating script.
+2020-07-12T10:58:37.7036023Z Script contents:
+2020-07-12T10:58:37.7036225Z echo Hello, world!
+2020-07-12T10:58:37.7036486Z ========================== Starting Command Output ===========================
+2020-07-12T10:58:37.7059561Z [command]/bin/bash --noprofile --norc /home/vsts/work/_temp/7f8472cb-120c-4fdd-bf0c-5e8218267947.sh
+2020-07-12T10:58:37.7144859Z Hello, world!
+2020-07-12T10:58:37.7155385Z 
+2020-07-12T10:58:37.7208657Z ##[section]Finishing: Run a one-line script
+2020-07-12T10:58:37.7229185Z ##[section]Starting: Run a multi-line script
+2020-07-12T10:58:37.7237329Z ==============================================================================
+2020-07-12T10:58:37.7237621Z Task         : Command line
+2020-07-12T10:58:37.7237894Z Description  : Run a command line script using Bash on Linux and macOS and cmd.exe on Windows
+2020-07-12T10:58:37.7238172Z Version      : 2.164.2
+2020-07-12T10:58:37.7238395Z Author       : Microsoft Corporation
+2020-07-12T10:58:37.7238691Z Help         : https://docs.microsoft.com/azure/devops/pipelines/tasks/utility/command-line
+2020-07-12T10:58:37.7239025Z ==============================================================================
+2020-07-12T10:58:37.8346796Z Generating script.
+2020-07-12T10:58:37.8360950Z ========================== Starting Command Output ===========================
+2020-07-12T10:58:37.8382537Z [command]/bin/bash --noprofile --norc /home/vsts/work/_temp/e0ad649e-50b1-4440-9cc6-3b050fd22b4b.sh
+2020-07-12T10:58:37.8444963Z Add other tasks to build, test, and deploy your project.
+2020-07-12T10:58:37.8445589Z See https://aka.ms/yaml
+2020-07-12T10:58:37.8453582Z 
+2020-07-12T10:58:37.8515294Z ##[section]Finishing: Run a multi-line script
+2020-07-12T10:58:37.8536185Z ##[section]Starting: Checkout salihyildirim2/PASTEL@master to s
+2020-07-12T10:58:37.8539893Z ==============================================================================
+2020-07-12T10:58:37.8540202Z Task         : Get sources
+2020-07-12T10:58:37.8540480Z Description  : Get sources from a repository. Supports Git, TfsVC, and SVN repositories.
+2020-07-12T10:58:37.8540934Z Version      : 1.0.0
+2020-07-12T10:58:37.8541104Z Author       : Microsoft
+2020-07-12T10:58:37.8541626Z Help         : [More Information](https://go.microsoft.com/fwlink/?LinkId=798199)
+2020-07-12T10:58:37.8542096Z ==============================================================================
+2020-07-12T10:58:38.1861384Z Cleaning any cached credential from repository: salihyildirim2/PASTEL (GitHub)
+2020-07-12T10:58:38.1906185Z ##[section]Finishing: Checkout salihyildirim2/PASTEL@master to s
+2020-07-12T10:58:38.1967399Z ##[section]Starting: Finalize Job
+2020-07-12T10:58:38.1993716Z Cleaning up task key
+2020-07-12T10:58:38.1995360Z Start cleaning up orphan processes.
+2020-07-12T10:58:38.2134663Z ##[section]Finishing: Finalize Job
+2020-07-12T10:58:38.2172482Z ##[section]Finishing: Job
