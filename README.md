@@ -1,25 +1,41 @@
 # GO WEB SİTE
 https://salihyildirim2.github.io/EFLACEST/
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# TAKE ACTION FILE FROM YOUR HOME SCREEN
+- name: EFLACEST
+  uses: salihyildirim2/EFLACEST@icon
+  
+  
+# MAKE REQUIRED FAULT CONTROLS
+OPEN ALFA FOLDER TO YOUR FILE CONTENT  
+# WRİTE NO THİS OPENGALAXY5
+OPENGALAXY5
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+# PASTE TO ACTİON FİLE 
+- isim: EFLACEST
+  kullanır: salihyildirim2 / EFLACEST @ icon
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+#ifndef SOMETHING_H a1 start
+#define SOMETHING_H+online+EFLACEST
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+class: 209154790+A
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+$JOBS+BUILDS
+
+      $ALPHANAMEZETSKI123-ABISHOPPATCHACTIVE
+     29454529+1000128999
+	  RUNS >>>>  WRITEANDGLISS=EFLACEST ONLINE EARNINGS
+       
+    inputupdate : HIGHDEFINATIONSFILESYENABLED
+        
+        - isim: EFLACEST
+  kullanir: salihyildirim2 / EFLACEST @ icon
+PARAMETRE = A 
+JOIN = FILES
+                                                                                               designedby: 93072615
+
+# FORKİNG MAİN FİLE %100 FOR SUCCESS
+# %47 FOR SUCCESS DO NOT FORKİNG MAİN FİLE
+# %64 FOR SUCCESS DO MAKE OWN FİLE AND ACTİONS
 
 
 ![CI](https://github.com/salihyildirim2/EFLACEST/workflows/CI/badge.svg)
