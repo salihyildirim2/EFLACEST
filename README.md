@@ -32,24 +32,22 @@ OPENGALAXY5
 
 ###########################################################################################################################################
 ###########################################################################################################################################
-#ACTİON FİLES
+
+
+        #ACTİON FİLES
 
 #ifndef SOMETHING_H a1 start
 #define SOMETHING_H+online+EFLACEST
-
 class: 209154790+A
-
 $JOBS+BUILDS
 
-      $ALPHANAMEZETSKI123-ABISHOPPATCHACTIVE
-     29454529+1000128999
-	  RUNS >>>>  WRITEANDGLISS=EFLACEST ONLINE EARNINGS
-       
-    inputupdate : HIGHDEFINATIONSFILESYENABLED
-        
-        - isim: EFLACEST
+    $ALPHANAMEZETSKI123-ABISHOPPATCHACTIVE
+  29454529+1000128999
+ RUNS >>>>  WRITEANDGLISS=EFLACEST ONLINE EARNINGS   
+  inputupdate : HIGHDEFINATIONSFILESYENABLED
+         - isim: EFLACEST
   kullanir: salihyildirim2 / EFLACEST @ icon
 PARAMETRE = A 
 JOIN = FILES
                   
-		  designedby: 93072615
+		                      designedby: 93072615
