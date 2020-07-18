@@ -1,10 +1,153 @@
-steps:
-- task: VSTest@2
-  displayName: 'Test run for Test plans'
-  inputs:
-    testSelector: testRun
-    vsTestVersion: 15.0
-    runInParallel: false
-    runTestsInIsolation: false
-    codeCoverageEnabled: false
-  continueOnError: true
+2020-07-17T11:00:51.8826085Z ##[section]Starting: Job
+2020-07-17T11:00:52.0567846Z ##[section]Starting: Initialize job
+2020-07-17T11:00:52.0568835Z Agent name: 'Hosted Agent'
+2020-07-17T11:00:52.0569128Z Agent machine name: 'fv-az100'
+2020-07-17T11:00:52.0569321Z Current agent version: '2.172.1'
+2020-07-17T11:00:52.0607343Z ##[group]Operating System
+2020-07-17T11:00:52.0607567Z Ubuntu
+2020-07-17T11:00:52.0607726Z 18.04.4
+2020-07-17T11:00:52.0607864Z LTS
+2020-07-17T11:00:52.0608025Z ##[endgroup]
+2020-07-17T11:00:52.0608199Z ##[group]Virtual Environment
+2020-07-17T11:00:52.0608413Z Environment: ubuntu-18.04
+2020-07-17T11:00:52.0608603Z Version: 20200709.0
+2020-07-17T11:00:52.0608908Z Included Software: https://github.com/actions/virtual-environments/blob/ubuntu18/20200709.0/images/linux/Ubuntu1804-README.md
+2020-07-17T11:00:52.0609210Z ##[endgroup]
+2020-07-17T11:00:52.0610045Z Current image version: '20200709.0'
+2020-07-17T11:00:52.0614045Z Agent running as: 'vsts'
+2020-07-17T11:00:52.0647266Z Prepare build directory.
+2020-07-17T11:00:52.0935856Z Set build variables.
+2020-07-17T11:00:52.0959742Z Download all required tasks.
+2020-07-17T11:00:52.1048077Z Downloading task: CmdLine (2.164.2)
+2020-07-17T11:00:54.0921978Z Checking job knob settings.
+2020-07-17T11:00:54.0936838Z    Knob: AgentToolsDirectory = /opt/hostedtoolcache Source: ${AGENT_TOOLSDIRECTORY} 
+2020-07-17T11:00:54.0939032Z    Knob: AgentPerflog = /home/vsts/perflog Source: ${VSTS_AGENT_PERFLOG} 
+2020-07-17T11:00:54.0940117Z Finished checking job knob settings.
+2020-07-17T11:00:54.1160916Z Start tracking orphan processes.
+2020-07-17T11:00:54.1299728Z ##[section]Finishing: Initialize job
+2020-07-17T11:00:54.1565926Z ##[section]Starting: Checkout salihyildirim2/EFLACEST@master to s
+2020-07-17T11:00:54.1730028Z ==============================================================================
+2020-07-17T11:00:54.1730510Z Task         : Get sources
+2020-07-17T11:00:54.1730878Z Description  : Get sources from a repository. Supports Git, TfsVC, and SVN repositories.
+2020-07-17T11:00:54.1731143Z Version      : 1.0.0
+2020-07-17T11:00:54.1731433Z Author       : Microsoft
+2020-07-17T11:00:54.1731895Z Help         : [More Information](https://go.microsoft.com/fwlink/?LinkId=798199)
+2020-07-17T11:00:54.1732388Z ==============================================================================
+2020-07-17T11:00:55.0979300Z Syncing repository: salihyildirim2/EFLACEST (GitHub)
+2020-07-17T11:00:55.7795390Z ##[command]git version
+2020-07-17T11:00:56.1721852Z git version 2.27.0
+2020-07-17T11:00:56.1770058Z ##[command]git lfs version
+2020-07-17T11:00:57.5100582Z git-lfs/2.11.0 (GitHub; linux amd64; go 1.13.4)
+2020-07-17T11:00:57.5264107Z ##[command]git init "/home/vsts/work/1/s"
+2020-07-17T11:00:57.6090916Z Initialized empty Git repository in /home/vsts/work/1/s/.git/
+2020-07-17T11:00:57.6192582Z ##[command]git remote add origin https://github.com/salihyildirim2/EFLACEST
+2020-07-17T11:00:57.6425131Z ##[command]git config gc.auto 0
+2020-07-17T11:00:57.6427599Z ##[command]git config --get-all http.https://github.com/salihyildirim2/EFLACEST.extraheader
+2020-07-17T11:00:57.6429909Z ##[command]git config --get-all http.proxy
+2020-07-17T11:00:57.6456415Z ##[command]git -c http.extraheader="AUTHORIZATION: basic ***" fetch --force --tags --prune --progress --no-recurse-submodules origin
+2020-07-17T11:00:59.0981454Z remote: Enumerating objects: 18, done.        
+2020-07-17T11:00:59.1020653Z remote: Counting objects:   5% (1/18)        
+2020-07-17T11:00:59.1022792Z remote: Counting objects:  11% (2/18)        
+2020-07-17T11:00:59.1024643Z remote: Counting objects:  16% (3/18)        
+2020-07-17T11:00:59.1025951Z remote: Counting objects:  22% (4/18)        
+2020-07-17T11:00:59.1027041Z remote: Counting objects:  27% (5/18)        
+2020-07-17T11:00:59.1028166Z remote: Counting objects:  33% (6/18)        
+2020-07-17T11:00:59.1029287Z remote: Counting objects:  38% (7/18)        
+2020-07-17T11:00:59.1030592Z remote: Counting objects:  44% (8/18)        
+2020-07-17T11:00:59.1031878Z remote: Counting objects:  50% (9/18)        
+2020-07-17T11:00:59.1033640Z remote: Counting objects:  55% (10/18)        
+2020-07-17T11:00:59.1215592Z remote: Counting objects:  61% (11/18)        
+2020-07-17T11:00:59.1218146Z remote: Counting objects:  66% (12/18)        
+2020-07-17T11:00:59.1222887Z remote: Counting objects:  72% (13/18)        
+2020-07-17T11:00:59.1252788Z remote: Counting objects:  77% (14/18)        
+2020-07-17T11:00:59.1253826Z remote: Counting objects:  83% (15/18)        
+2020-07-17T11:00:59.1254599Z remote: Counting objects:  88% (16/18)        
+2020-07-17T11:00:59.1255293Z remote: Counting objects:  94% (17/18)        
+2020-07-17T11:00:59.1256110Z remote: Counting objects: 100% (18/18)        
+2020-07-17T11:00:59.1256838Z remote: Counting objects: 100% (18/18), done.        
+2020-07-17T11:00:59.1257574Z remote: Compressing objects:   6% (1/16)        
+2020-07-17T11:00:59.1258559Z remote: Compressing objects:  12% (2/16)        
+2020-07-17T11:00:59.1259326Z remote: Compressing objects:  18% (3/16)        
+2020-07-17T11:00:59.1260010Z remote: Compressing objects:  25% (4/16)        
+2020-07-17T11:00:59.1260556Z remote: Compressing objects:  31% (5/16)        
+2020-07-17T11:00:59.1261111Z remote: Compressing objects:  37% (6/16)        
+2020-07-17T11:00:59.1261649Z remote: Compressing objects:  43% (7/16)        
+2020-07-17T11:00:59.1262174Z remote: Compressing objects:  50% (8/16)        
+2020-07-17T11:00:59.1262417Z remote: Compressing objects:  56% (9/16)        
+2020-07-17T11:00:59.1262681Z remote: Compressing objects:  62% (10/16)        
+2020-07-17T11:00:59.1262932Z remote: Compressing objects:  68% (11/16)        
+2020-07-17T11:00:59.1263420Z remote: Compressing objects:  75% (12/16)        
+2020-07-17T11:00:59.1263674Z remote: Compressing objects:  81% (13/16)        
+2020-07-17T11:00:59.1263939Z remote: Compressing objects:  87% (14/16)        
+2020-07-17T11:00:59.1264185Z remote: Compressing objects:  93% (15/16)        
+2020-07-17T11:00:59.1264447Z remote: Compressing objects: 100% (16/16)        
+2020-07-17T11:00:59.1264706Z remote: Compressing objects: 100% (16/16), done.        
+2020-07-17T11:00:59.1823985Z remote: Total 18 (delta 0), reused 0 (delta 0), pack-reused 0        
+2020-07-17T11:00:59.2404382Z From https://github.com/salihyildirim2/EFLACEST
+2020-07-17T11:00:59.2405228Z  * [new branch]      master     -> origin/master
+2020-07-17T11:00:59.3275431Z ##[command]git checkout --progress --force ed0ec35d11417c30e56f479862e316b8e9939cd0
+2020-07-17T11:00:59.3278299Z Note: switching to 'ed0ec35d11417c30e56f479862e316b8e9939cd0'.
+2020-07-17T11:00:59.3278531Z 
+2020-07-17T11:00:59.3278977Z You are in 'detached HEAD' state. You can look around, make experimental
+2020-07-17T11:00:59.3279352Z changes and commit them, and you can discard any commits you make in this
+2020-07-17T11:00:59.3279701Z state without impacting any branches by switching back to a branch.
+2020-07-17T11:00:59.3279914Z 
+2020-07-17T11:00:59.3280155Z If you want to create a new branch to retain commits you create, you may
+2020-07-17T11:00:59.3280707Z do so (now or later) by using -c with the switch command. Example:
+2020-07-17T11:00:59.3280966Z 
+2020-07-17T11:00:59.3281288Z   git switch -c <new-branch-name>
+2020-07-17T11:00:59.3281455Z 
+2020-07-17T11:00:59.3281638Z Or undo this operation with:
+2020-07-17T11:00:59.3281798Z 
+2020-07-17T11:00:59.3282084Z   git switch -
+2020-07-17T11:00:59.3282210Z 
+2020-07-17T11:00:59.3282461Z Turn off this advice by setting config variable advice.detachedHead to false
+2020-07-17T11:00:59.3282688Z 
+2020-07-17T11:00:59.3283326Z HEAD is now at ed0ec35 Add files via upload
+2020-07-17T11:00:59.3326588Z ##[section]Finishing: Checkout salihyildirim2/EFLACEST@master to s
+2020-07-17T11:00:59.3350473Z ##[section]Starting: Run a one-line script
+2020-07-17T11:00:59.3357389Z ==============================================================================
+2020-07-17T11:00:59.3357720Z Task         : Command line
+2020-07-17T11:00:59.3358074Z Description  : Run a command line script using Bash on Linux and macOS and cmd.exe on Windows
+2020-07-17T11:00:59.3358546Z Version      : 2.164.2
+2020-07-17T11:00:59.3358801Z Author       : Microsoft Corporation
+2020-07-17T11:00:59.3359173Z Help         : https://docs.microsoft.com/azure/devops/pipelines/tasks/utility/command-line
+2020-07-17T11:00:59.3359676Z ==============================================================================
+2020-07-17T11:01:02.7674070Z Generating script.
+2020-07-17T11:01:02.7683286Z Script contents:
+2020-07-17T11:01:02.7683435Z echo Hello, world!
+2020-07-17T11:01:02.7684237Z ========================== Starting Command Output ===========================
+2020-07-17T11:01:02.7700757Z [command]/bin/bash --noprofile --norc /home/vsts/work/_temp/f565f85e-d78f-41ca-9690-e630c448a91d.sh
+2020-07-17T11:01:02.8055827Z Hello, world!
+2020-07-17T11:01:02.8065125Z 
+2020-07-17T11:01:02.8339852Z ##[section]Finishing: Run a one-line script
+2020-07-17T11:01:02.8368726Z ##[section]Starting: Run a multi-line script
+2020-07-17T11:01:02.8375660Z ==============================================================================
+2020-07-17T11:01:02.8375929Z Task         : Command line
+2020-07-17T11:01:02.8376170Z Description  : Run a command line script using Bash on Linux and macOS and cmd.exe on Windows
+2020-07-17T11:01:02.8376411Z Version      : 2.164.2
+2020-07-17T11:01:02.8376586Z Author       : Microsoft Corporation
+2020-07-17T11:01:02.8376851Z Help         : https://docs.microsoft.com/azure/devops/pipelines/tasks/utility/command-line
+2020-07-17T11:01:02.8377131Z ==============================================================================
+2020-07-17T11:01:02.9361503Z Generating script.
+2020-07-17T11:01:02.9370249Z ========================== Starting Command Output ===========================
+2020-07-17T11:01:02.9387105Z [command]/bin/bash --noprofile --norc /home/vsts/work/_temp/ad50fb78-811e-4f67-8f17-08119aed964d.sh
+2020-07-17T11:01:02.9429696Z Add other tasks to build, test, and deploy your project.
+2020-07-17T11:01:02.9429937Z See https://aka.ms/yaml
+2020-07-17T11:01:02.9441644Z 
+2020-07-17T11:01:02.9486873Z ##[section]Finishing: Run a multi-line script
+2020-07-17T11:01:02.9502778Z ##[section]Starting: Checkout salihyildirim2/EFLACEST@master to s
+2020-07-17T11:01:02.9506046Z ==============================================================================
+2020-07-17T11:01:02.9506300Z Task         : Get sources
+2020-07-17T11:01:02.9506579Z Description  : Get sources from a repository. Supports Git, TfsVC, and SVN repositories.
+2020-07-17T11:01:02.9506835Z Version      : 1.0.0
+2020-07-17T11:01:02.9507020Z Author       : Microsoft
+2020-07-17T11:01:02.9507300Z Help         : [More Information](https://go.microsoft.com/fwlink/?LinkId=798199)
+2020-07-17T11:01:02.9507632Z ==============================================================================
+2020-07-17T11:01:03.2142438Z Cleaning any cached credential from repository: salihyildirim2/EFLACEST (GitHub)
+2020-07-17T11:01:03.2182902Z ##[section]Finishing: Checkout salihyildirim2/EFLACEST@master to s
+2020-07-17T11:01:03.2225921Z ##[section]Starting: Finalize Job
+2020-07-17T11:01:03.2250168Z Cleaning up task key
+2020-07-17T11:01:03.2251636Z Start cleaning up orphan processes.
+2020-07-17T11:01:03.2352549Z ##[section]Finishing: Finalize Job
+2020-07-17T11:01:03.2380790Z ##[section]Finishing: Job
