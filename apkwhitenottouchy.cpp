@@ -26,7 +26,7 @@ inputStream)
      scripts   +edipstrions	+zahtera +whiteporche +masteralfrednick if
   +   occurrence = 0 0 0 0 1 1 1 1 1 1 1 0 1 0 if
      scripts  96618156
-     57796563e1 + 577 966 541 66 036 551 470 537 681 985 1857058 788 951 63e1
+     57796563e1 + 577 966 541 66 036 551 470 537 681 985 185 058 788 951 63e1
      5816387415863255915 (whiteelephant) + 77 99 55 67 77 85 128 36 767 OK
 }
 >>> android 3 957066577861259188566128 if

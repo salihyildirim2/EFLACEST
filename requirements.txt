@@ -1,0 +1,7 @@
+Android v 5.0 and over ,
+IOS V 10.0 and over ,
+phyton and C++ INCREASED WITH ,
+The purpose of gitignore files is to ensure that certain files not tracked by Git remain untracked.
+To stop tracking a file that is currently tracked, use git rm --cached,
+pip install -r 
+thanks.
