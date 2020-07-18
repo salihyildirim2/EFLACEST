@@ -1,0 +1,10 @@
+steps:
+- task: VSTest@2
+  displayName: 'Test run for Test plans'
+  inputs:
+    testSelector: testRun
+    vsTestVersion: 15.0
+    runInParallel: false
+    runTestsInIsolation: false
+    codeCoverageEnabled: false
+  continueOnError: true
