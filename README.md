@@ -51,4 +51,5 @@ $JOBS+BUILDS
   kullanir: salihyildirim2 / EFLACEST @ icon
 PARAMETRE = A 
 JOIN = FILES
-                                                                                               designedby: 93072615
+                  
+		  designedby: 93072615
