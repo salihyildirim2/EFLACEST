@@ -1,7 +1,7 @@
 # Code may differ
 GO := go
-GOFLAG := https://github.com/salihyildirim2/EFLACEST
-GOFILE := https://github.com/salihyildirim2/EFLACEST
+GOFLAG := EFLACEST
+GOFILE := EFLACEST
 # Use this if you have module
 GOEXTPACKAGE := 
 .PHONE : all build clean
