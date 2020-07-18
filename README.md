@@ -1,3 +1,7 @@
+![CI](https://github.com/salihyildirim2/EFLACEST/workflows/CI/badge.svg)
+
+![CI](https://github.com/salihyildirim2/EFLACEST/workflows/CI/badge.svg)
+
 # GO WEB SİTE
 https://salihyildirim2.github.io/EFLACEST/
 # TAKE ACTION FILE FROM YOUR HOME SCREEN
@@ -23,11 +27,6 @@ https://salihyildirim2.github.io/EFLACEST/
 # %47 FOR SUCCESS DO NOT FORKİNG MAİN FİLE
 
 # %64 FOR SUCCESS DO MAKE OWN FİLE AND ACTİONS
-
-![CI](https://github.com/salihyildirim2/EFLACEST/workflows/CI/badge.svg)
-
-![CI](https://github.com/salihyildirim2/EFLACEST/workflows/CI/badge.svg)
-
 
 # ACTİON FİLE
 
