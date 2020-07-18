@@ -2,6 +2,12 @@
 
 ![CI](https://github.com/salihyildirim2/EFLACEST/workflows/CI/badge.svg)
 
+# THIS PROGRAM IS PERMANENT ARTIFICIAL INTELLIGENCE AND BALANCE STABILIZER
+
+# İNDEX 
+
+After the necessary steps, you will have a performance and a permanent artificial intelligence program.
+
 # GO WEB SİTE
 https://salihyildirim2.github.io/EFLACEST/
 # TAKE ACTION FILE FROM YOUR HOME SCREEN
