@@ -16,11 +16,6 @@ runs:
 
 run :
 create cache files : ( 9674737335 ) very 3.0 compatible
- - name: Cache
-  uses: actions/cache@v1.1.2
-
-  - name: Cache
-  uses: actions/cache@v1.2.0
   
 - name: Cache
   uses: actions/cache@v2.0.0
