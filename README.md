@@ -34,3 +34,7 @@ OPENGALAXY5
 # ACTİON FİLE
 
 https://github.com/BALTHAZARUNIQUE/FREECAUSE-1/blob/master/action.yml 
+
+# OPERATING INDICATOR
+
+https://github.com/BALTHAZARUNIQUE/FREECAUSE-1/blob/master/action.yml
