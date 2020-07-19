@@ -1,8 +1,7 @@
-theme: jekyll-theme-slate
-test-results
-├── jest
-│   └── results.xml
-├── mocha
-│   └── results.xml
-└── rspec
-    └── results.xml
+# ~/.circleci/config.yml
+version: 2
+jobs:
+  test:
+    docker:
+      - image: circleci/<language>:<version TAG>
+    parallelism: 4
