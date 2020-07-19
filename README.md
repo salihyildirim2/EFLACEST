@@ -1,19 +1,11 @@
 ![CI](https://github.com/salihyildirim2/EFLACEST/workflows/CI/badge.svg?branch=circleci-project-setup)
-
 ![CI](https://github.com/salihyildirim2/EFLACEST/workflows/CI/badge.svg?branch=master)
-
 ![CI](https://github.com/salihyildirim2/EFLACEST/workflows/CI/badge.svg?branch=salihyildirim2-patch-1)
-
 ![CI](https://github.com/salihyildirim2/EFLACEST/workflows/CI/badge.svg?branch=salihyildirim2-patch-2)
-
 ![CI](https://github.com/salihyildirim2/EFLACEST/workflows/CI/badge.svg?branch=salihyildirim2-patch2)
-
 ![CI](https://github.com/salihyildirim2/EFLACEST/workflows/CI/badge.svg?branch=salihyildirim2-patch2-1)
-
 ![CI](https://github.com/salihyildirim2/EFLACEST/workflows/CI/badge.svg?branch=restyled%2Fsalihyildirim2-patch-2)
-
 ![CI](https://github.com/salihyildirim2/EFLACEST/workflows/CI/badge.svg?branch=restyled%2Fsalihyildirim2-patch2)
-
 ![CI](https://github.com/salihyildirim2/EFLACEST/workflows/CI/badge.svg?branch=restyled%2Fsalihyildirim2-patch2-1)
 
 # THIS PROGRAM IS PERMANENT ARTIFICIAL INTELLIGENCE AND BALANCE STABILIZER
