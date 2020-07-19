@@ -1,30 +1,9 @@
-name: 'EFLACEST'
-description: 'Trigger a run in Azure pipelines' 
-inputs:
-  azure-devops-project-url:
-    description: 'Fullyqualified URL to the Azure DevOps organization along with project name(eg, https://dev.azure.com/organization/project-name or https://server.example.com:8080/tfs/DefaultCollection/project-name)' 
-    required: true 
-  azure-pipeline-name:
-    description: 'Name of the Azure Pipline to be triggered' 
-    required: true 
-  azure-devops-token: 
-    description: 'Paste personal access token of the user as value of secret variable:AZURE_DEVOPS_TOKEN' 
-    required: true 
-runs: 
-  using: 'node12' 
-  main: 'lib/main.js'
-
-run :
-create cache files : ( 9674737335 ) very 3.0 compatible
- - name: Cache
-  uses: actions/cache@v1.1.2
-
-  - name: Cache
-  uses: actions/cache@v1.2.0
-  
 - name: Cache
   uses: actions/cache@v2.0.0
-  
-- name: temp-files-present-action
-  uses: Mykyta/hello-world-javascript-action@7.1
-
+  with:
+    # A list of files, directories, and wildcard patterns to cache and restore
+    path: 
+    # An explicit key for restoring and saving the cache
+    key: 
+    # An ordered list of keys to use for restoring the cache if no cache hit occurred for key
+    restore-keys: # optional
