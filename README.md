@@ -7,7 +7,8 @@
 OPEN ALFA FOLDER TO YOUR FILE CONTENT  
 
 # PASTE TO ACTİON FİLE 
-https://github.com/salihyildirim2/FREECAUSE
+
+https://salihyildirim2.github.io/EFLACEST/
                                                             
 # FORKİNG MAİN FİLE %100 FOR SUCCESS
 # %47 FOR SUCCESS DO NOT FORKİNG MAİN FİLE
