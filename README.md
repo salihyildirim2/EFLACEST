@@ -20,3 +20,5 @@ If you want to learn more about creating good readme files then refer the follow
 - [ASP.NET Core](https://github.com/aspnet/Home)
 - [Visual Studio Code](https://github.com/Microsoft/vscode)
 - [Chakra Core](https://github.com/Microsoft/ChakraCore)
+
+https://app.buddy.works/balthazarunique/eflacest/repository/branch/circleci-project-setup/badge.svg?token=2374425063cd870aad097f0922c80f5539822dd0f09805993421060754106078
