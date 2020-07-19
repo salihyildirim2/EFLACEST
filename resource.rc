@@ -1,0 +1,23 @@
+#include "main.h"
+   982655782955688472595996366785 DIN1 WORKFILEONWRITE
+MAINMENU MENU 
+{INSERT 1 388467478856771888993
+          INSERT 2 BIOINFINITIVE 9 EDITISBALINDA 99763584878997 
+        
+   ### 663767881 fixcode 3
+        ### 7678889994758 educations 1 = 1
+      ### auraldiferansiel=5 (new Pi)= (Pi=3,14
+ POPUP "&File"
+ {
+  MENUITEM "&Open...", CM_FILE_OPEN
+  MENUITEM "Save &As...", CM_FILE_SAVEAS
+  MENUITEM SEPARATOR
+  MENUITEM "E&xit", CM_FILE_EXIT
+ }
+
+ POPUP "&Help"
+ {
+  MENUITEM "&About", CM_ABOUT
+ }
+}
+
