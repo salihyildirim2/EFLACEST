@@ -20,5 +20,5 @@ https://github.com/BALTHAZARUNIQUE/FREECAUSE-1/blob/master/action.yml
 
 # BADGES ANALYSIS
 [! [BCH uyumluluğu] (https://bettercodehub.com/edge/badge/salihyildirim2/EFLACEST?branch=circleci-project-setup)] (https://bettercodehub.com/)
-<imgsrc='https: //bettercodehub.com/edge/badge/salihyildirim2/EFLACEST?branch=circleci-project-setup'>
+<imgsrc='https://bettercodehub.com/edge/badge/salihyildirim2/EFLACEST?branch=circleci-project-setup'>
 
