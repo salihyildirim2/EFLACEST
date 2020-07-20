@@ -19,8 +19,8 @@ https://github.com/BALTHAZARUNIQUE/FREECAUSE-1/blob/master/action.yml
 https://github.com/BALTHAZARUNIQUE/FREECAUSE-1/blob/master/action.yml
 
 # BADGES ANALYSIS
-[! [BCH uyumluluğu](https://bettercodehub.com/edge/badge/salihyildirim2/EFLACEST?branch=circleci-project-setup)]
+[! [BCH uyumluluğu](https://bettercodehub.com/edge/badge/salihyildirim2/EFLACEST?branch=circleci-project-setup)](https://bettercodehub.com/)
 
 
+[![buddy pipeline](https://app.buddy.works/balthazarunique/eflacest/pipelines/pipeline/269329/badge.svg?token=2374425063cd870aad097f0922c80f5539822dd0f09805993421060754106078 "buddy pipeline")](https://app.buddy.works/balthazarunique/eflacest/pipelines/pipeline/269329)
 
-(https://bettercodehub.com/)
