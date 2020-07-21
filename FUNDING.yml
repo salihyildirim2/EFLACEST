@@ -1,10 +1,12 @@
-community_bridge: EFLACEST , FREECAUSE
-github: USERNAME or github: [jekyll,jekyll]
-issuehunt: SALİH YILDIRIM
-ko_fi : BALTHAZARUNİQUE , salihyildirim2
-liberapay: SALİH YILDIRIM
-open_collective:  BALTHAZARUNİQUE , salihyildirim2
-otechie: salihyildirim2
-patreon : salihyildirim2
-tidelift: [C#,Pypi,Maven,C++,HTML,TEX,CSS,GRADLE] , [EFLACEST]
-custom: LINK1 or custom: []
+# These are supported funding model platforms
+
+github: # Replace with up to 4 GitHub Sponsors-enabled usernames e.g.,# [circleci , microsoft , zube ,bettercodehub]
+patreon: # [salihyildirim2]
+open_collective: # [circleci]
+ko_fi: # [semaphoreci]
+tidelift: # [codefactor]
+community_bridge: # [deepscan]
+liberapay: # [azure]
+issuehunt: # [amazon]
+otechie: # [google]
+custom: # [https://github.com/salihyildirim2/FREECAUSE , https://salihyildirim2.github.io/FREECAUSE/ , https://github.com/salihyildirim2/EFLACEST ,https://salihyildirim2.github.io/EFLACEST/]
